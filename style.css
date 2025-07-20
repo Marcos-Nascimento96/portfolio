@@ -10,13 +10,19 @@ body {
   background-color: #121212;
   color: #e0e0e0;
   line-height: 1.6;
+
+background-image: url('fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 header {
-  background-color: #1f1f1f;
+  background-color: #0f2c57ec;
   padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 4px #3f83db;
 }
 
 header h1 {
@@ -36,7 +42,7 @@ header h2 {
 
 .botao {
   display: inline-block;
-  background-color: #333;
+  background-color: #3f83db;
   color: #fff;
   padding: 10px 15px;
   margin: 5px;
@@ -76,13 +82,13 @@ section {
   padding: 20px;
   background-color: #1e1e1e;
   border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 3px #3f83db;;
 }
 
 h3 {
   color: #ffffff;
   margin-bottom: 10px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #0f2c5752;
   padding-bottom: 5px;
 }
 
@@ -103,7 +109,7 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #0abde3;
+  background: #0f2c57ec;
   color: #fff;
   border: none;
   padding: 10px 12px;
@@ -114,7 +120,7 @@ footer {
 }
 
 #btnTopo:hover {
-  background: #555;
+  background: #5e5e5e;
 }
 
 /* Responsividade */
@@ -133,4 +139,11 @@ footer {
     display: inline-block;
     margin: 5px;
   }
+}
+#Contato a {
+  color: white;
+  text-decoration: none; /* opcional, para remover o sublinhado */
+}
+#Contato a:hover {
+  color: rgb(22, 66, 133);
 }
