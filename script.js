@@ -26,21 +26,5 @@ btn.onclick = function () {
 // AOS (animações ao rolar)
 AOS.init();
 
-const musica = document.getElementById("musica");
-const btnMusica = document.getElementById("btnMusica");
-
-let tocando = false;
-
-musica.volume = 0.2; // volume inicial baixo (20%)
-
-btnMusica.addEventListener("click", () => {
-  if (!tocando) {
-    musica.play();
-    btnMusica.textContent = "⏸️ Pausar Música";
-    tocando = true;
-  } else {
-    musica.pause();
-    btnMusica.textContent = "🎵 Tocar Música";
-    tocando = false;
-  }
-});
+const video = document.getElementById('background-video');
+video.style.objectPosition = 'center bottom'; // muda para focar na parte inferior
